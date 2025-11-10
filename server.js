@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Oracle JSON 테스트 서버 🚀');
+  res.send('Oracle JSON 테스트 서버 ');
 });
 
 app.post('/api/test', (req, res) => {
@@ -16,3 +16,4 @@ app.post('/api/test', (req, res) => {
 });
 
 app.listen(3000, () => console.log('Server running...'));
+
